@@ -1,0 +1,40 @@
+body {
+	font-family: arial;
+}
+h1 {
+	background: red;
+	color: #ffffff;
+	padding: 15px;
+	border: 5px dotted green;
+}
+p {
+	color: yellow;
+	background: blue;
+	padding: 15px 20px 30px 45px;
+	border: 5px solid purple;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin: 50px;
+    margin: 10px 20px 30px 40px;
+
+}
+code {
+	color: #ffffff;
+	background: red;
+	border: 1px dashed blue;
+	padding: 2px 5px;
+	margin: 2px;
+}
+
+h2 {
+	color: red;
+	line-height: 10px;
+}
+
+li {
+	color: blue;
+}
+
+ol {
+	text-align: center;
+}
