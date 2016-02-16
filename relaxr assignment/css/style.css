@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Phillip D. Bandel
+Developer @GA in LA
 */
 
 
@@ -47,38 +47,91 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 12px;
-     line-height: 1.4;
+     font-size: 20px;
+     line-height: 1.8;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: cover;
+     font-weight: lighter;
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-/* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
   height: 500px;
+  margin: 0px;
+}
+/* Center the container */
+#header {
+  color: white;
+}
+
+.logo {
+  font-size: 50px;
+  padding: 10px 100px;
+  font-weight: bold;
+}
+
+.tagline {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Trebuchet MS;
+  font-size: 35px;
+}
+
+.yellow {
+  background-color: #f9e42e;
+  padding: 5px 30px;
+  font-size: 16px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border-color: #f9e42e;
+}
+
+.colorbackground {
+  background-color: #efefee!important;
+  padding: 100px;
+}
+
+#testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 500px;
+  margin: 0px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 30px;
+}
+
+.blue {
+  background-color: #043049;
+  padding: 5px 30px;
+  font-size: 16px;
+  margin: 10px auto;
+  color: white;
+  border-radius: 10px;
+  border-color: #043049;
+}
+
+.yellowbg {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 30px;
 
 }
 
-header {
-
+.socials {
+  background-color: #121211!important;
+  text-align: center;
+  color: #f9e42e;
+  padding: 10px;
 }
 
-footer {
-
+.icon {
+  display: inline-block;
+  margin: 0px 10px;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
-
 
